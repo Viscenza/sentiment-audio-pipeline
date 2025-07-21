@@ -2,8 +2,8 @@
 
 Ce projet implémente un pipeline automatisé qui :
 
-1. Transcrit un fichier audio vocal en texte (modèle Wav2Vec2)
-2. Analyse le sentiment du texte (modèle NLP type BERT)
+1. Transcrit un fichier audio vocal en texte 
+2. Analyse le sentiment du texte
 3. Propose une API FastAPI et une interface Gradio pour tester tout le pipeline
 4. Peut être intégré à d'autres systèmes
 
@@ -14,23 +14,23 @@ sentiment-audio-pipeline/
 
 ├── app/
 
-│ ├── main.py # API FastAPI
+│ ├── main.py 
 
-│ ├── model.py # Chargement des modèles
+│ ├── model.py 
 
-│ └── utils.py # Fonctions utilitaires
+│ └── utils.py 
 
 │
 
 ├── interface/
 
-│ └── app_ui.py # Interface Gradio
+│ └── app_ui.py 
 
 │
 
-├── audio/ # Dossier pour stocker des audios de test
+├── audio/ 
 
-├── models/ # (optionnel) Dossier de modèles ou config locale
+├── models/
 
 ├── README.md
 
