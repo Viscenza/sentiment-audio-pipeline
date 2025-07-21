@@ -1,0 +1,19 @@
+# Core
+fastapi==0.110.0
+uvicorn==0.29.0
+gradio==4.25.0
+
+# Audio & speech
+torchaudio
+transformers
+librosa
+soundfile
+pydub
+
+# NLP & modèle
+torch
+scikit-learn
+
+# Utils
+python-multipart
+aiofiles
